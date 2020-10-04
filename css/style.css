@@ -1,0 +1,66 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#app h1 {
+  font-size: 30px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+#app li {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.letter-spacing {
+  letter-spacing: 3px;
+}
+
+#app input[type="text"] {
+  padding: 5px;
+  width: 200px;
+}
+
+#app input[type="submit"] {
+  width: 50px;
+  height: 30px;
+}
+
+.command {
+  display: inline-block;
+  width: 25px;
+  padding-bottom: 2px;
+  text-align: center;
+  background: #08c;
+  font-size: 12px;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+#app ul {
+  padding: 0;
+  list-style: none;
+}
+
+#app li > span.done {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.info {
+  color: #bbb;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#app h1 > button {
+  float: right;
+}
